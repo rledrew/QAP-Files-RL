@@ -29,9 +29,31 @@ while True:
     else:
         break
 while True:
-    address = input('Input Customer Address here: ')
+    address = input('Input Customer Street Address here: ')
     add_val = address[0]
     if add_val.isnumeric() != True:
         print('Address must start with a number')
     else:
         break
+while True:
+    city = input('Input Customer City here: ')
+    if city.isalpha() == False:
+        print('Customer City must contain only letters')
+    else:
+        break
+while True:
+    province = input('Input Customer Province here (Format XX): ')
+    if len(province) != 2:
+        print('Length of Province abbreviation must be 2')
+    elif province.isalpha() == False:
+        print('Province abbreviation must contain only letters')
+    else:
+        break
+while True:
+    postal = input('Input Customer postal code here (X#X #X#): ')
+    if postal[0].isalpha() == False
+    if postal[0].isdigit() == False
+    if postal[0].isalpha() == False
+    if postal[0].isdigit() == False
+    if postal[0].isalpha() == False
+    if postal[0].isdigit() == False
